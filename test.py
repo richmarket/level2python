@@ -202,6 +202,24 @@ if __name__ == '__main__':
     #login.queue_Get();
     #推送的数据在SS_data.cs中的回调函数中获取
 
+    #修改订阅内容  Tran逐笔成交
+    #login.Tran_dic_add("000002");
+    #login.Tran_dic_remove("000002");
+    #清空字典情况为默认全订阅
+    #login.Tran_dic_clear();
+
+    #修改订阅内容  Order逐笔成交
+    #login.Order_dic_add("000002");
+    #login.Order_dic_remove("000002");
+    #login.Order_dic_clear();
+
+    #修改订阅内容  Market逐笔成交
+    #login.Market_dic_add("000002");
+    #login.Market_dic_remove("000002");
+    #login.Market_dic_clear();
+
+    ##等等
+    
     #login.index_Close();
     #login.option_Close();
     #login.market_Close();
@@ -211,6 +229,6 @@ if __name__ == '__main__':
 
 print ("=====================0=====================")
 
-#print (ord(msvcrt.getch()))
+print (ord(msvcrt.getch()))
 
 
